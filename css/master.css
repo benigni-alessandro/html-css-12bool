@@ -1,0 +1,22 @@
+.row{
+  background-color: #F6BFCB;
+}
+[class^="col-"]{
+  border: 1px solid;
+  height: 200px;
+}
+.nasted{
+  background-color: #F07F80;
+  border: 1px solid;
+  border-color: white;
+  height: 186px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+body{
+  margin-bottom: 30px;
+}
+.col-6{
+  padding-left: 5px;
+  padding-right: 5px;
+}
