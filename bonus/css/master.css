@@ -1,0 +1,36 @@
+.brown{
+  height: calc(1170px / 12);
+  background-color: #D18B46;
+  border: 1px solid;
+}
+.grey{
+  height: calc(1170px / 12);
+  background-color: #F5F5F5;
+  border: 1px solid;
+}
+p.griglia{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 30%;
+}
+.sand{
+  background-color: #F9CE9D;
+  height: calc(1170px / 12);
+  border: 1px solid;
+}
+.black{
+  font-size: 70px;
+  color: black;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.white{
+  font-size: 70px;
+  color: white;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+.queen{
+  margin-right: 15%;
+}
