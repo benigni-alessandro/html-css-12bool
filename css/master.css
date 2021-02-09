@@ -4,6 +4,7 @@
 [class^="col-"]{
   border: 1px solid;
   height: 200px;
+  position: relative;
 }
 .nasted{
   background-color: #F07F80;
@@ -19,4 +20,15 @@ body{
 .col-6{
   padding-left: 5px;
   padding-right: 5px;
+}
+.content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.content p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
