@@ -22,12 +22,20 @@ p.griglia{
 .black{
   font-size: 70px;
   color: black;
-  margin-left: 25%;
-  margin-top: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .white{
   font-size: 70px;
   color: white;
-  margin-left: 25%;
-  margin-top: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+[class*="col-"]{
+  position: relative;
 }
