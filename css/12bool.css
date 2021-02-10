@@ -90,3 +90,12 @@
 .col-offset-12{
   margin-left: 100%;
 }
+/* float */
+[class^="col-"]{
+  float: left;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
